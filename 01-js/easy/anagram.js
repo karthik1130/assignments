@@ -6,7 +6,8 @@
 
 function isAnagram(str1, str2) {
   if (str1.length !== str2.length) {
-    return false;
+    return false; 
+    
   }
 
   str1 = str1.replace(/[^\w]/g,'').toLowerCase(str1);
